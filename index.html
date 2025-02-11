@@ -18,7 +18,34 @@
    <body>
       <!--==================== NAV ====================-->
       <nav class="nav">
-         
+         <ul class="nav__list">
+            <li>
+               <a href="#home" title="Home" class="nav__link active-link">
+               <i class="ri-home-line"></i>
+            </a>
+            </li>
+
+            <li>
+               <a href="#projects" title="Projects" class="nav__link">
+               <i class="ri-folder-line"></i></a>
+            </li>
+
+            <li>
+               <a href="#services" title="Blogs" class="nav__link">
+               <i class="ri-file-line"></i></a>
+            </li>
+
+            <li>
+               <a href="#experience" title=" Experience " class="nav__link">
+               <i class="ri-honour-line"></i></a>
+            </li >
+
+            <li>
+               <a href="#contact" title="Contact" class="nav__link">
+               <i class="ri-send-plane-line"></i></a>
+            </li >
+         </ul>
+
       </nav>
 
       <!--==================== MAIN ====================-->
@@ -27,53 +54,355 @@
          <section class="home section" id="home">
             <div class="home__container container grid">
                <!--===== PERFIL =====-->
-
-
+<div class="perfil">
+   <img src="assets/img/A7402216 (1).png" alt="image" class="perfil__img">
+   <div class="perfil__data">
+      <h1 class="perfil__name">Anuj Sharma</h1>
+      <div class="perfil__buttons">
+         <a href="#projects" class="button">Projects</a>
+         <a href="#services" class="button button__black">Blog</a>
+      </div>
+   </div>
+</div>
                <!--===== INFO =====-->
-
+<div class="info">
+   <div class="info__data">
+     <div class="info__circle"></div>
+     <h1 class="info__name">Anuj Sharma</h1>
+   </div>
+   <div class="info__image">
+      <img src="assets/img/20240824-177A2454.png" alt="image" class="info__img">
+   </div>
+   <p class="info__description">
+      Passionate AI and Machine Learning enthusiast with expertise in Large Language Models (LLMs) and Generative AI. Skilled in developing data-driven solutions and intelligent systems, with experience in full-stack web development. Proficient in data visualization using Power BI and Tableau. Always eager to learn and innovate
+   </p>
+   <a href="assets/pdf/Anuj_Sharma_Resume.pdf" download target="_blank"class="button button__black">Download CV</a>
+</div>
 
                <!--===== ABOUT =====-->
+<div class="about">
+   <h3 clas="about__name">
+      Anuj Sharma - <b>Data scientist & AI enthusiast</b>
+   </h3>
+   <p class="about__description">
+      I have experience in web development and machine learning engineering, having successfully completed <b>10+ </b>projects in both fields
+   </p>
+   <div class="about__social">
+      <a href="https://www.linkedin.com/in/anujsharma1998/" target="_blank" class="about__link">
+         <i class="ri-linkedin-box-line"></i>
+      </a>
+      <a href="https://github.com/Ajsharma98" target="_blank" class="about__link">
+         <i class="ri-github-fill"></i>
+      </a>
+   </div>
+   <div class="about__image">
+      <img src="assets/img/20240824-177A2454.png" alt="image" class="about__img">
+ </div>
+ <p class="about__note">
+   Feel free to reach out for collaborations, inquiries, or just to connect. I'm always open to discussing new opportunities and projects
+ </p>
+ <a href="#contact" class="button">Contact Me</a>
+</div>
 
-
-               <!--===== SKILLS =====-->
+           <div class="skills">
+            <h2 class="skills__title">Skills</h2>
+            <div class="skills__items">
+               <img src="assets/img/skills-html.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/skills-css.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/Python.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/skills-git.svg" alt="HTML" class="skills__item">
+               <img src="assets/img//skills-github.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/skills-javascript.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/skills-react.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/svelte-icon.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/icons8-bootstrap.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/bitbucket-svgrepo-com.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/icons8-express-js.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/icons8-power-bi.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/icons8-tableau-software.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/MySQL.svg" alt="HTML" class="skills__item">
+               <img src="assets/img/PostgresSQL.svg" alt="HTML" class="skills__item">
+   
+            </div>
+            <p class="skills__description">
+               I have experience in making innovative projects using modern technologies.
+           </div>    <!--===== SKILLS =====-->
                
             </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
          <section class="projects section" id="projects">
-            
+            <h2 class="section__title">Projects</h2>
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__image">
+                     <img src="assets/img/Movie_rating_site.jpg" alt="project" class="projects__img">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Movie Rating Site</h3>
+                     <p class="projects__description">
+                        Movie Rating Site is a full-stack app for browsing, rating, and reviewing movies. Built with Svelte, Node.js, Express, and PostgreSQL, it features authentication, role-based access, and pagination.
+                     </p>
+                     <div class="projects__skills">
+                        <img src="assets/img/icons8-express-js.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img/skills-html.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img//skills-css.svg" alt="HTML" class="projects__skill">
+                     </div>
+                     <a href="https://github.com/Ajsharma98/Movie_rating_site" target="_blank"class="projects__button"> <i class="ri-link"></i>
+                     <span>Visit Projects</span></a>
+                    
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__image">
+                     <img src="assets/img/Chat_application.jpg" alt="project" class="projects__img">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Real Time chat application webapp</h3>
+                     <p class="projects__description">
+                        ChatScan WebApp is a full-stack real-time messaging application built with Socket.io for live chat and notifications. It features public and private chat rooms, with invite codes generated for private rooms to ensure secure access.
+                     </p>
+                     <div class="projects__skills">
+                        <img src="assets/img/PostgresSQL.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img/skills-github.svg" alt="HTML" class="projects__skill">
+                       
+                     </div>
+                     <a href="https://github.com/Ajsharma98/chatScan-webapp" target="_blank"class="projects__button"> <i class="ri-link"></i>
+                     <span>Visit Projects</span></a>
+                    
+                  </div>
+               </article>
+               <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__image">
+                     <img src="assets/img/projects-3.jpg" alt="project" class="projects__img">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Eye Contact analysis using Computer Vision</h3>
+                     <p class="projects__description">
+                        Eye Contact Analysis is a video-based application that uses a pre-trained Haar Cascade classifier to detect and analyze eye contact. It helps track visual engagement in real-time, making it useful for behavioral studies and interactive applications.
+                     </p>
+                     <div class="projects__skills">
+                        <img src="assets/img/NumPy.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img/Python.svg" alt="HTML" class="projects__skill">
+                        <!-- <img src="assets/img/skills-tailwind-css.svg" alt="HTML" class="projects__skill"> -->
+                     </div>
+                     <a href="https://github.com/Ajsharma98/Eye-contact-analysis-video-based" target="_blank"class="projects__button"> <i class="ri-link"></i>
+                     <span>Visit Projects</span></a>
+                    
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__image">
+                     <img src="assets/img/Cricket.jpg" alt="project" class="projects__img">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Ipl data analysis and Winner prediction</h3>
+                     <p class="projects__description">
+                        IPL Data Analysis & Winner Prediction is a data-driven project that analyzes IPL match data and predicts winners using Machine Learning models like SVM and Random Forest. It leverages statistical analysis and visualization for performance insights and match outcome predictions.
+                     </p>
+                     <div class="projects__skills">
+                        <img src="assets/img/NumPy.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img/Python.svg" alt="HTML" class="projects__skill">
+                        <!-- <img src="assets/img/skills-tailwind-css.svg" alt="HTML" class="projects__skill"> -->
+                     </div>
+                     <a href="https://github.com/Ajsharma98/IPL-data-analysis-and-winner-prediction-" target="_blank"class="projects__button"> <i class="ri-link"></i>
+                     <span>Visit Projects</span></a>
+                    
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <a href="#" target="_blank" class="projects__image">
+                     <img src="assets/img/projects-5.jpg" alt="project" class="projects__img">
+                  </a>
+                  <div class="projects__data">
+                     <h3 class="projects__name">Fetch book data API and design UI </h3>
+                     <p class="projects__description">
+                        FetchAPI Project is a web application that fetches and displays data from a Book API using JavaScript and Fetch API. It demonstrates efficient data retrieval, handling, and dynamic rendering in a user-friendly interface
+                     </p>
+                     <div class="projects__skills">
+                        <img src="assets/img/svelte-icon.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img/skills-html.svg" alt="HTML" class="projects__skill">
+                        <img src="assets/img/skills-css.svg" alt="HTML" class="projects__skill">
+                     </div>
+                     <a href="https://github.com/Ajsharma98/fetchAPI" target="_blank"class="projects__button"> <i class="ri-link"></i>
+                     <span>Visit Projects</span></a>
+                    
+                  </div>
+               </article>
+            </div>
          </section>
 
          <!--==================== SERVICES ====================-->
          <section class="services section" id="services">
+            <h2 class="section__title">Personal Blog</h2>
+<div class="services__container container grid">
+   <article class="services__card">
+      <a href="#" target="_blank" class="projects__image">
+         <img src="assets/img/projects-5.jpg" alt="project" class="projects__img">
+      </a>
+      <!-- <div class="services__icon">
+         <div class="services__circle"></div>
+         <i class="ri-code-box-line"></i>
+      </div> -->
+      <h3 class="services__name">Web Development</h3>
+      <p class="services__description">
+         Short description of the service that 
+         is offered in this portfolio.</p>
+         <a href="https://github.com/Ajsharma98/fetchAPI" target="_blank"class="projects__button"> <i class="ri-link"></i>
+
+            <span>Visit Projects</span></a>
+           
+   </article>
+
+   <!-- <article class="services__card">
+      <div class="services__icon">
+         <div class="services__circle"></div>
+         <i class="ri-pen-nib-line"></i>
+      </div>
+      <h3 class="services__name">Web Design</h3>
+      <p class="services__description">
+         Short description of the service that 
+         is offered in this portfolio.
+   </article>
+
+   <article class="services__card">
+      <div class="services__icon">
+         <div class="services__circle"></div>
+         <i class="ri-seo-line"></i>
+      </div>
+      <h3 class="services__name">Seo (Web Pages)</h3>
+      <p class="services__description">
+         Short description of the service that 
+         is offered in this portfolio.
+   </article> -->
 
          </section>
 
          <!--==================== EXPERIENCE ====================-->
          <section class="experience section" id="experience">
-            
+            <h2 class="section__title">MY TIMELINE</h2>
+            <div class="experience__container container grid">
+               <article class="experience__card">
+                  <h2 class="experience__company">indx.Ai</h2>
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Full Stack Developer</h3>
+                     <span class="experience__date">7/24 - 12/24</span>
+                     <p class="experience__description">
+                        As a Full Stack Developer, I led the end-to-end development of a comprehensive web application, handling database design, backend, and frontend implementation. I designed and implemented an efficient PostgreSQL database schema, developed and optimized RESTful APIs using Node.js and Express, and built dynamic user interfaces with HTML, CSS, JavaScript, and the Svelte framework, styled with Bootstrap for responsiveness. I utilized Git for version control, managing repositories on Bitbucket and GitHub, and employed modern tools and best practices to deliver a robust, scalable, and high-performance solution while ensuring high coding standards and timely project delivery.
+                        </p>
+                  </div>
+               </article>
+               <article class="experience__card">
+                  <h2 class="experience__company">Munsow Technolgy</h2>
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Machine Learning Engineer Intern</h3>
+                     <span class="experience__date">02/24 - 6/24</span>
+                     <p class="experience__description">
+                        As an ML intern, I developed a web application using the Streamlit library to determine the eye contact percentage of candidates during online interviews
+                        </p>
+                  </div>
+               </article>
+               <article class="experience__card">
+                  <h2 class="experience__company">World Bank</h2>
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Research Intern</h3>
+                     <span class="experience__date">05/23 - 07/23</span>
+                     <p class="experience__description">
+                        Analyzed Public health data for Uttar Pradesh State, created a dashboard with 50+ key indicators using Python, PostgreSQL, and Tableau, driving insights into public health metrics.
+                        </p>
+                  </div>
+               </article>
+               <article class="experience__card">
+                  <h2 class="experience__company">TUM SEED Center IIT Bombay</h2>
+                  <div class="experience__data">
+                     <h3 class="experience__profession">Operation and Management Head</h3>
+                     <span class="experience__date">06/23- 06/24</span>
+                     <p class="experience__description">
+                        Contributed to the launch of a Student Initiative at IIT Bombay, leading to the formation of a 10+ member core team. Played a key role in building a global partner university network, expanding TUM SEED’s impact and initiatives.
+                        </p>
+                  </div>
+               </article>
+               <article class="experience__card">
+                  <h2 class="experience__company">IIT Bombay</h2>
+                  <div class="experience__data">
+                     <h3 class="experience__profession">M.Tech in Technolgy and Development</h3>
+                     <span class="experience__date">06/22- 06/24</span>
+                     <p class="experience__description">
+                        Specialized in data analytics, machine learning, and project management. Conducted research on rural development and applied machine learning in solving real-world problems.
+                        </p>
+                  </div>
+               </article>
+               <article class="experience__card">
+                  <h2 class="experience__company">TCET Mumbai </h2>
+                  <div class="experience__data">
+                     <h3 class="experience__profession">B.E in Mechanical Engineering</h3>
+                     <span class="experience__date">06/16- 06/20</span>
+                     <p class="experience__description">
+                        Developed a low-cost bionic arm for handicapped individuals using an EMG sensor and Arduino, enabling muscle signal-based control for improved accessibility and affordability.
+                        </p>
+                  </div>
+               </article>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+               <form action="" class="contact__form grid" id="contact-form">
+                  <div class="contact__group grid">
+                     <input type="text" name="user_name" placeholder="Names" required class="contact__input">
+                     <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                  </div>
+                  <textarea name="user_message" placeholder="Message"  class="contact__input contact__area"></textarea>
+                  <button type="submit" class="button contact__button">Send Message</button>
+                  <p class="contact__message" id="contact-message"></p>
+               </form>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+            <a href="#" class="footer__logo">Anuj</a>
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">Home</a>
+               </li>
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+               <li>
+                  <a href="#services" class="footer__link">Blog</a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer__social">
+<a href="https://www.instagram.com/ajsharma1998?igsh=MWMzOHljbDJ0YXZhcg==" target="_blank" class="footer__social-link">
+   <i class="ri-instagram-line"></i>
+</a>
+<a href="https://www.threads.net/@ajsharma1998" target="_blank" class="footer__social-link"><i class="ri-twitter-x-line"></i></a>
+
+         </div>
+      </div>
+      <span class="footer__copy">&#169; Anuj Sharma. All right reserved</span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-
+<a href="#" class="scrollup" id="scroll-up">
+   <i class="ri-arrow-up-line"></i>
+</a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="assets/js/scrollreveal.min.js"></script>
 
       <!--=============== EMAIL JS ===============-->
-      <script src=""></script>
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
