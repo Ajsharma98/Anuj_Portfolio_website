@@ -1,3 +1,6 @@
+## Credits  
+This project is based on ([Original Repository URL](https://www.youtube.com/watch?v=vHxVWdMUYo0&t=2s)) by [Bedimcode].  
+Modifications and customizations were made by [Anuj Sharma].
 # Responsive Portfolio Website Xian
 ## [Watch it on youtube](https://youtu.be/vHxVWdMUYo0)
 ### Responsive Portfolio Website Xian
